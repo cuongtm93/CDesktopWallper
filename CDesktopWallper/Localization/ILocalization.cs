@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CDesktopWallper
+{
+    public interface ILocalizationService
+    {
+        string this[string text]
+        {
+            get;
+        }
+
+        void SetLocalization(string locale);
+    }
+}
