@@ -1,0 +1,1493 @@
+﻿Executing Bridge.Build.Task...
+Reading configuration file bridge.json at D:\CDesktopWallper\ClientScript\ClientScript.csproj for configuration Debug ...
+Getting configuration by file path bridge.Debug.json at D:\CDesktopWallper\ClientScript\ClientScript.csproj ...
+Skipping bridge.Debug.json (not found)
+Getting configuration by file path bridge.json at D:\CDesktopWallper\ClientScript\ClientScript.csproj ...
+Found configuration file D:\CDesktopWallper\ClientScript\bridge.json
+Reading base configuration at D:\CDesktopWallper\ClientScript\bridge.json ...
+Setting translator properties...
+Translator properties:
+	BridgeLocation:..\CDesktopWallper\bin\Debug\Frontend\Bridge.dll
+	BuildArguments:
+	DefineConstants:BRIDGE TRACE DEBUG Product
+	Rebuild:False
+	ProjectProperties:$(AssemblyName):ClientScript, $(CheckForOverflowUnderflow):, $(Configuration):Debug, $(DefineConstants):TRACE;DEBUG;Product, $(OutDir):..\CDesktopWallper\bin\Debug\Frontend\, $(OutputPath):..\CDesktopWallper\bin\Debug\Frontend\, $(OutputType):Library, $(Platform):AnyCPU, $(RootNamespace):ClientScript
+EnsureProjectProperties at D:\CDesktopWallper\ClientScript\ClientScript.csproj ...
+DefaultNamespace:ClientScript
+BuildAssemblyLocation...
+    FullOutputPath:D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\
+    OutDir:..\CDesktopWallper\bin\Debug\Frontend\
+    OutputPath:..\CDesktopWallper\bin\Debug\Frontend\
+    AssemblyLocation:D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\ClientScript.dll
+BuildAssemblyLocation done
+Getting source files by xml...
+Getting source files by location...
+Getting source files by location done (found 42 items)
+Getting source files by xml done
+EnsureDefineConstants...
+EnsureDefineConstants done
+EnsureProjectProperties done
+ApplyProjectPropertiesToConfig...
+ApplyTokens ...
+Properties:$(AssemblyName):ClientScript, $(CheckForOverflowUnderflow):, $(Configuration):Debug, $(DefineConstants):TRACE;DEBUG;Product, $(OutDir):..\CDesktopWallper\bin\Debug\Frontend\, $(OutputPath):..\CDesktopWallper\bin\Debug\Frontend\, $(OutputType):Library, $(Platform):AnyCPU, $(RootNamespace):ClientScript
+ApplyTokens done
+ApplyProjectPropertiesToConfig done
+Setting translator properties done
+Applying logger configuration parameters...
+Logger level: Trace
+Read config file: {"FileName":null,"Output":"..\\CDesktopWallper\\bin\\Debug\\Frontend\\bridge\\","OutputBy":"Project","FileNameCasing":"None","OutputFormatting":"Formatted","StartIndexInName":0,"Module":null,"Dependencies":[],"BeforeBuild":null,"AfterBuild":null,"AutoPropertyToField":false,"PluginsPath":null,"GenerateTypeScript":false,"GenerateDocumentation":"Basic","BuildArguments":null,"CleanOutputFolderBeforeBuild":null,"CleanOutputFolderBeforeBuildPattern":null,"Configuration":null,"DefineConstants":[],"Locales":null,"LocalesOutput":null,"LocalesFileName":null,"CombineLocales":false,"CombineScripts":false,"UseTypedArrays":false,"IgnoreCast":false,"Logging":{"Level":"Trace","TimeStamps":null,"MaxSize":null,"Folder":null,"FileName":null},"OverflowMode":null,"NoLoggerTimeStamps":null,"StrictNullChecks":false,"Reflection":{"Disabled":false,"memberAccessibility":null,"TypeAccessibility":null,"Filter":null,"Output":null,"Target":0},"Assembly":{"DisableInitAssembly":false,"EnableReservedNamespaces":false,"FullName":null},"Resources":[],"Loader":{"Type":0,"FunctionName":null,"ManualLoading":false,"ManualLoadingMask":null,"SkipManualVariables":false},"NamedFunctions":0,"SourceMap":false,"Html":false,"Console":false,"Report":false,"Rules":{"Lambda":1,"Boxing":1,"ArrayIndex":1,"Integer":1,"AnonymousType":1,"AutoProperty":1,"InlineComment":1,"ExternalCast":1,"Level":0},"ReferencesPath":null,"References":null}
+2018-10-15T01:42:51:292 	Trace		Setting logger configuration parameters done
+2018-10-15T01:42:51:293 	Info		Translating...
+2018-10-15T01:42:51:294 	Info		Inspecting references...
+2018-10-15T01:42:51:294 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\ClientScript.dll ...
+2018-10-15T01:42:51:330 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll ...
+2018-10-15T01:42:51:340 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll done
+2018-10-15T01:42:51:341 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.dom.dll ...
+2018-10-15T01:42:51:343 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll ...
+2018-10-15T01:42:51:354 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll done
+2018-10-15T01:42:51:355 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.Core.dll ...
+2018-10-15T01:42:51:356 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll ...
+2018-10-15T01:42:51:365 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll done
+2018-10-15T01:42:51:366 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.Core.dll done
+2018-10-15T01:42:51:367 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.es5.dll ...
+2018-10-15T01:42:51:368 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll ...
+2018-10-15T01:42:51:379 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll done
+2018-10-15T01:42:51:380 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.es5.dll done
+2018-10-15T01:42:51:381 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.dom.dll done
+2018-10-15T01:42:51:383 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.jquery.dll ...
+2018-10-15T01:42:51:386 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll ...
+2018-10-15T01:42:51:395 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll done
+2018-10-15T01:42:51:397 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.es2015.iterable.dll ...
+2018-10-15T01:42:51:398 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll ...
+2018-10-15T01:42:51:407 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll done
+2018-10-15T01:42:51:408 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.es2015.symbol.dll ...
+2018-10-15T01:42:51:409 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll ...
+2018-10-15T01:42:51:417 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Bridge.dll done
+2018-10-15T01:42:51:418 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.es2015.symbol.dll done
+2018-10-15T01:42:51:418 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.es2015.iterable.dll done
+2018-10-15T01:42:51:419 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Retyped.jquery.dll done
+2018-10-15T01:42:51:420 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Newtonsoft.Json.dll ...
+2018-10-15T01:42:51:421 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\Newtonsoft.Json.dll done
+2018-10-15T01:42:51:422 	Trace		Assembly definition loading D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\ClientScript.dll done
+2018-10-15T01:42:51:422 	Trace		Reading types for assembly ClientScript ...
+2018-10-15T01:42:51:423 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:424 	Trace		Reading types for assembly Bridge ...
+2018-10-15T01:42:51:429 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:430 	Trace		Reading types for assembly Retyped.Core ...
+2018-10-15T01:42:51:430 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:431 	Trace		Reading types for assembly Retyped.es5 ...
+2018-10-15T01:42:51:432 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:432 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:441 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:442 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:443 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:444 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:445 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:445 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:446 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:447 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:448 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:448 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:449 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:450 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:451 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:451 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:452 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:453 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:453 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:454 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:454 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:455 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:456 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:456 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:457 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:457 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:458 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:459 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:460 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:460 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:461 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:461 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:462 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:463 	Trace		Reading types for assembly Retyped.dom ...
+2018-10-15T01:42:51:476 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:477 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:494 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:495 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:496 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:497 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:497 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:498 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:499 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:499 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:500 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:501 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:501 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:502 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:503 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:503 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:504 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:504 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:505 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:506 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:507 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:507 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:508 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:508 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:509 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:510 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:511 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:511 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:512 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:513 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:514 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:514 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:515 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:516 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:517 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:517 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:518 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:519 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:520 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:520 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:521 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:522 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:522 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:523 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:524 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:525 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:525 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:526 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:527 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:528 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:528 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:529 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:530 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:530 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:531 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:532 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:532 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:533 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:534 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:534 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:535 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:536 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:536 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:537 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:538 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:539 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:539 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:540 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:540 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:541 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:542 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:543 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:543 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:544 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:545 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:545 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:546 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:547 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:548 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:548 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:549 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:550 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:550 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:551 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:552 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:552 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:553 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:554 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:554 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:555 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:556 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:556 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:557 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:558 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:559 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:559 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:560 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:560 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:561 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:562 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:562 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:563 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:564 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:564 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:565 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:566 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:566 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:567 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:567 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:568 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:569 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:569 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:570 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:571 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:572 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:572 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:573 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:574 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:574 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:575 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:576 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:576 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:577 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:578 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:579 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:579 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:580 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:581 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:581 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:582 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:583 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:583 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:584 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:585 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:585 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:586 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:587 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:587 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:588 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:589 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:589 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:590 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:591 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:591 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:592 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:595 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:596 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:596 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:597 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:598 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:598 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:599 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:599 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:600 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:601 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:601 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:602 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:603 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:603 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:604 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:605 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:605 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:606 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:607 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:607 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:608 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:609 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:609 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:610 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:611 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:612 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:612 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:613 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:613 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:614 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:615 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:616 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:616 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:617 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:618 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:618 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:619 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:620 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:620 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:621 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:622 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:622 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:623 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:623 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:624 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:625 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:625 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:626 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:626 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:627 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:628 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:629 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:629 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:630 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:630 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:631 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:632 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:632 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:633 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:634 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:634 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:635 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:635 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:636 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:637 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:638 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:638 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:639 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:640 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:640 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:641 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:642 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:643 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:643 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:644 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:644 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:644 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:645 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:645 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:646 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:647 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:647 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:648 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:648 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:649 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:650 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:650 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:651 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:651 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:652 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:653 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:653 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:654 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:655 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:655 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:656 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:657 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:657 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:658 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:659 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:660 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:660 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:661 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:662 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:662 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:663 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:664 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:664 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:665 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:666 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:666 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:667 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:668 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:668 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:669 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:669 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:670 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:671 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:671 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:672 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:672 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:673 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:674 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:675 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:676 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:676 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:677 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:678 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:678 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:679 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:679 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:680 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:680 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:681 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:682 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:682 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:689 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:689 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:690 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:691 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:691 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:692 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:693 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:693 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:694 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:695 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:695 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:696 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:697 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:698 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:698 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:699 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:700 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:700 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:701 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:703 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:703 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:704 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:705 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:705 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:706 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:707 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:707 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:708 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:708 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:709 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:710 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:710 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:711 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:711 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:712 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:713 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:713 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:714 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:715 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:715 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:716 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:717 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:717 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:718 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:719 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:719 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:720 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:721 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:721 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:722 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:722 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:723 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:723 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:724 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:725 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:726 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:726 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:727 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:728 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:728 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:729 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:730 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:730 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:731 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:731 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:732 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:733 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:733 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:734 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:735 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:735 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:736 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:737 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:737 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:738 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:739 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:739 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:740 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:741 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:741 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:742 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:743 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:743 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:744 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:745 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:745 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:746 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:747 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:748 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:748 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:749 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:750 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:751 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:752 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:752 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:753 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:754 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:754 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:755 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:756 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:756 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:757 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:757 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:758 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:759 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:759 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:760 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:761 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:761 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:762 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:763 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:763 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:764 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:765 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:765 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:766 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:766 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:767 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:768 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:768 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:769 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:769 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:770 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:771 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:771 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:772 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:772 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:773 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:774 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:775 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:775 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:776 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:776 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:777 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:778 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:779 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:779 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:780 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:780 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:781 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:782 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:782 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:783 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:784 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:784 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:785 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:786 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:786 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:787 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:788 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:789 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:789 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:790 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:791 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:792 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:792 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:793 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:794 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:800 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:801 	Trace		Reading types for assembly Retyped.es2015.symbol ...
+2018-10-15T01:42:51:802 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:802 	Trace		Reading types for assembly Retyped.es2015.iterable ...
+2018-10-15T01:42:51:803 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:804 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:813 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:813 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:815 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:815 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:816 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:817 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:818 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:819 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:820 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:820 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:821 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:821 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:822 	Trace		Reading types for assembly Retyped.jquery ...
+2018-10-15T01:42:51:823 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:824 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:833 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:833 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:835 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.es2015.iterable, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:835 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Retyped.es2015.iterable, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:836 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.es2015.iterable, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:837 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:838 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:839 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:840 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:51:841 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:854 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:855 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:855 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:856 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:858 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:858 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:859 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:860 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:860 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:861 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:861 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:862 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:862 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:863 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:864 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:864 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:865 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:866 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:866 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:867 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:867 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:868 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:869 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:51:870 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:870 	Trace		Reading types for assembly Newtonsoft.Json ...
+2018-10-15T01:42:51:871 	Trace		Reading types for assembly done
+2018-10-15T01:42:51:872 	Info		Inspecting references done
+2018-10-15T01:42:51:873 	Info		Product info:
+2018-10-15T01:42:51:873 	Info			Bridge.Compiler version 17.3.0
+2018-10-15T01:42:51:874 	Info			[Bridge Framework, version 17.3.0]
+2018-10-15T01:42:51:875 	Info			Copyright 2008-2018 Object.NET, Inc.
+2018-10-15T01:42:51:875 	Info		Discovering plugins...
+2018-10-15T01:42:51:876 	Trace		Current domain MSBuild.exe
+2018-10-15T01:42:51:877 	Trace		Application base: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\
+2018-10-15T01:42:51:877 	Trace		Loaded assemblies:
+2018-10-15T01:42:51:878 	Trace			mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll True
+2018-10-15T01:42:51:878 	Trace			MSBuild, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe False
+2018-10-15T01:42:51:879 	Trace			System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll True
+2018-10-15T01:42:51:880 	Trace			System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll True
+2018-10-15T01:42:51:881 	Trace			System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll True
+2018-10-15T01:42:51:881 	Trace			Microsoft.Build.Framework, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Build.Framework.dll False
+2018-10-15T01:42:51:882 	Trace			Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Build.dll False
+2018-10-15T01:42:51:883 	Trace			System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\System.Runtime.InteropServices.RuntimeInformation.dll False
+2018-10-15T01:42:51:883 	Trace			System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll True
+2018-10-15T01:42:51:884 	Trace			System.Threading.Tasks.Dataflow, Version=4.5.24.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\System.Threading.Tasks.Dataflow.dll False
+2018-10-15T01:42:51:885 	Trace			System.Threading.Tasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll True
+2018-10-15T01:42:51:885 	Trace			System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll True
+2018-10-15T01:42:51:886 	Trace			System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Diagnostics.Tracing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Diagnostics.Tracing.dll True
+2018-10-15T01:42:51:886 	Trace			System.Collections.Concurrent, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Collections.Concurrent\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.Concurrent.dll True
+2018-10-15T01:42:51:887 	Trace			System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\System.Collections.Immutable.dll False
+2018-10-15T01:42:51:888 	Trace			Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Build.Utilities.Core.dll False
+2018-10-15T01:42:51:888 	Trace			Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Build.Tasks.Core.dll False
+2018-10-15T01:42:51:889 	Trace			Microsoft.NET.Build.Extensions.Tasks, Version=2.1.400.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll False
+2018-10-15T01:42:51:890 	Trace			System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll True
+2018-10-15T01:42:51:890 	Trace			System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll True
+2018-10-15T01:42:51:891 	Trace			SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll True
+2018-10-15T01:42:51:892 	Trace			System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll True
+2018-10-15T01:42:51:892 	Trace			Microsoft.Build.Tasks.CodeAnalysis, Version=2.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll False
+2018-10-15T01:42:51:893 	Trace			Bridge.Build, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Bridge.Builder.v17.dll False
+2018-10-15T01:42:51:893 	Trace			Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll True
+2018-10-15T01:42:51:894 	Trace			Bridge.Contract, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Bridge.Contract.dll False
+2018-10-15T01:42:51:895 	Trace			Bridge.Translator, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Bridge.Translator.dll False
+2018-10-15T01:42:51:895 	Trace			Mono.Cecil, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756 D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Mono.Cecil.dll False
+2018-10-15T01:42:51:896 	Trace			ICSharpCode.NRefactory.CSharp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=d4bfe873e7598c49 D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\ICSharpCode.NRefactory.CSharp.dll False
+2018-10-15T01:42:51:896 	Trace			ICSharpCode.NRefactory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=d4bfe873e7598c49 D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\ICSharpCode.NRefactory.dll False
+2018-10-15T01:42:51:897 	Trace			Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Newtonsoft.Json.dll False
+2018-10-15T01:42:51:898 	Trace			System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll True
+2018-10-15T01:42:51:898 	Trace			System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll True
+2018-10-15T01:42:51:899 	Trace			Mono.Cecil.Rocks, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756 D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Mono.Cecil.Rocks.dll False
+2018-10-15T01:42:51:900 	Trace			System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.Composition\v4.0_4.0.0.0__b77a5c561934e089\System.ComponentModel.Composition.dll True
+2018-10-15T01:42:51:900 	Trace			Microsoft.CodeAnalysis.CSharp, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Microsoft.CodeAnalysis.CSharp.dll False
+2018-10-15T01:42:51:901 	Trace			Microsoft.CodeAnalysis, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Microsoft.CodeAnalysis.dll False
+2018-10-15T01:42:51:902 	Trace			System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\System.Collections.Immutable.dll False
+2018-10-15T01:42:51:902 	Trace			System.ValueTuple, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ValueTuple\v4.0_4.0.0.0__cc7b13ffcd2ddd51\System.ValueTuple.dll True
+2018-10-15T01:42:51:903 	Trace			System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IO\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.dll True
+2018-10-15T01:42:51:903 	Trace			System.Reflection.Metadata, Version=1.4.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\System.Reflection.Metadata.dll False
+2018-10-15T01:42:51:904 	Trace			System.Threading.Tasks.Parallel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks.Parallel\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.Parallel.dll True
+2018-10-15T01:42:51:905 	Trace			System.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll True
+2018-10-15T01:42:51:906 	Trace			System.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll True
+2018-10-15T01:42:51:906 	Trace			System.Security.Cryptography.Algorithms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Security.Cryptography.Algorithms\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Security.Cryptography.Algorithms.dll True
+2018-10-15T01:42:51:907 	Trace			System.Text.Encoding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Text.Encoding\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.Encoding.dll True
+2018-10-15T01:42:51:907 	Trace			System.Runtime.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Extensions.dll True
+2018-10-15T01:42:51:908 	Trace			System.Threading, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll True
+2018-10-15T01:42:51:909 	Trace			System.Globalization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll True
+2018-10-15T01:42:51:909 	Trace			System.IO.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IO.FileSystem\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.FileSystem.dll True
+2018-10-15T01:42:51:910 	Trace			System.Reflection, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll True
+2018-10-15T01:42:51:911 	Trace			System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.InteropServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.dll True
+2018-10-15T01:42:51:911 	Trace			System.Reflection.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Primitives\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Primitives.dll True
+2018-10-15T01:42:51:912 	Trace			System.Text.Encoding.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Text.Encoding.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.Encoding.Extensions.dll True
+2018-10-15T01:42:51:912 	Trace			System.Reflection.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Extensions.dll True
+2018-10-15T01:42:51:913 	Trace			System.Resources.ResourceManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Resources.ResourceManager\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Resources.ResourceManager.dll True
+2018-10-15T01:42:51:914 	Trace			Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll True
+2018-10-15T01:42:51:914 	Trace			System.Runtime.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Numerics\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Numerics.dll True
+2018-10-15T01:42:51:915 	Trace			ICSharpCode.NRefactory.Cecil, Version=5.0.0.0, Culture=neutral, PublicKeyToken=d4bfe873e7598c49 D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\ICSharpCode.NRefactory.Cecil.dll False
+2018-10-15T01:42:51:915 	Trace			TopologicalSorting, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\TopologicalSorting.dll False
+2018-10-15T01:42:51:916 	Trace			Object.Net.Utilities, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\Object.Net.Utilities.dll False
+2018-10-15T01:42:51:917 	Trace			AjaxMin, Version=5.14.5506.26196, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f D:\CDesktopWallper\packages\Bridge.Min.17.3.0\tools\AjaxMin.dll False
+2018-10-15T01:42:51:918 	Info		Will use the following plugin path "D:\CDesktopWallper\ClientScript\Bridge\plugins"
+2018-10-15T01:42:51:918 	Info		The plugin path does not exist. Skipping searching test framework plugins in the plugin folder.
+2018-10-15T01:42:51:919 	Trace		Will search all translator references to find resource(s) with names starting from "Bridge.Plugins." ...
+2018-10-15T01:42:51:919 	Trace		Searching plugins in reference Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null ...
+2018-10-15T01:42:51:920 	Trace		skipPluginAssemblies is not set
+2018-10-15T01:42:51:921 	Trace		The reference contains 0 resource(s) needed
+2018-10-15T01:42:51:922 	Trace		Searching plugins in reference Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null ...
+2018-10-15T01:42:51:923 	Trace		skipPluginAssemblies is not set
+2018-10-15T01:42:51:923 	Trace		The reference contains 0 resource(s) needed
+2018-10-15T01:42:51:924 	Trace		Searching plugins in reference Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null ...
+2018-10-15T01:42:51:925 	Trace		skipPluginAssemblies is not set
+2018-10-15T01:42:51:925 	Trace		The reference contains 0 resource(s) needed
+2018-10-15T01:42:51:926 	Trace		Searching plugins in reference Retyped.dom, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null ...
+2018-10-15T01:42:51:926 	Trace		skipPluginAssemblies is not set
+2018-10-15T01:42:51:927 	Trace		The reference contains 0 resource(s) needed
+2018-10-15T01:42:51:928 	Trace		Searching plugins in reference Retyped.es2015.symbol, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null ...
+2018-10-15T01:42:51:928 	Trace		skipPluginAssemblies is not set
+2018-10-15T01:42:51:929 	Trace		The reference contains 0 resource(s) needed
+2018-10-15T01:42:51:929 	Trace		Searching plugins in reference Retyped.es2015.iterable, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null ...
+2018-10-15T01:42:51:930 	Trace		skipPluginAssemblies is not set
+2018-10-15T01:42:51:931 	Trace		The reference contains 0 resource(s) needed
+2018-10-15T01:42:51:932 	Trace		Searching plugins in reference Retyped.jquery, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null ...
+2018-10-15T01:42:51:932 	Trace		skipPluginAssemblies is not set
+2018-10-15T01:42:51:933 	Trace		The reference contains 0 resource(s) needed
+2018-10-15T01:42:51:934 	Trace		Searching plugins in reference Newtonsoft.Json, Version=1.10.0.0, Culture=neutral, PublicKeyToken=null ...
+2018-10-15T01:42:51:934 	Trace		skipPluginAssemblies is not set
+2018-10-15T01:42:51:935 	Trace		The reference contains 0 resource(s) needed
+2018-10-15T01:42:51:936 	Info		No AssemblyCatalogs found
+2018-10-15T01:42:51:936 	Info		Reading plugin configs...
+2018-10-15T01:42:51:937 	Info		Reading plugin configs done
+2018-10-15T01:42:51:938 	Info		Building syntax tree...
+2018-10-15T01:42:51:956 	Trace		Rewriting/replacing code from files one after the other (not parallel) due to logger level being 'trace'.
+2018-10-15T01:42:52:078 	Trace		Building syntax tree...
+Parsing files one after the other (not parallel) due to logger level being 'trace'.
+2018-10-15T01:42:52:079 	Trace		Source file D:\CDesktopWallper\ClientScript\..\CDesktopWallper\Frontend\WsCommand.cs ...
+2018-10-15T01:42:52:080 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:081 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:082 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:083 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:083 	Trace		Source file D:\CDesktopWallper\ClientScript\..\CDesktopWallper\Frontend\WsCommand.cs done
+2018-10-15T01:42:52:084 	Trace		Source file D:\CDesktopWallper\ClientScript\App.cs ...
+2018-10-15T01:42:52:085 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:086 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:087 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:088 	Trace			Accepting lambda fixer visitor done
+2018-10-15T01:42:52:089 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:090 	Trace		Source file D:\CDesktopWallper\ClientScript\App.cs done
+2018-10-15T01:42:52:091 	Trace		Source file D:\CDesktopWallper\ClientScript\ContextMenu.cs ...
+2018-10-15T01:42:52:092 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:093 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:093 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:094 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:094 	Trace		Source file D:\CDesktopWallper\ClientScript\ContextMenu.cs done
+2018-10-15T01:42:52:095 	Trace		Source file D:\CDesktopWallper\ClientScript\ISerializer.cs ...
+2018-10-15T01:42:52:096 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:097 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:098 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:098 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:099 	Trace		Source file D:\CDesktopWallper\ClientScript\ISerializer.cs done
+2018-10-15T01:42:52:100 	Trace		Source file D:\CDesktopWallper\ClientScript\Setting\IClientSetting.cs ...
+2018-10-15T01:42:52:101 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:101 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:102 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:103 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:103 	Trace		Source file D:\CDesktopWallper\ClientScript\Setting\IClientSetting.cs done
+2018-10-15T01:42:52:104 	Trace		Source file D:\CDesktopWallper\ClientScript\Setting\ISettingData.cs ...
+2018-10-15T01:42:52:105 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:106 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:106 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:107 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:108 	Trace		Source file D:\CDesktopWallper\ClientScript\Setting\ISettingData.cs done
+2018-10-15T01:42:52:108 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Ajax\Ajax.cs ...
+2018-10-15T01:42:52:109 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:110 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:111 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:112 	Trace			Accepting lambda fixer visitor done
+2018-10-15T01:42:52:113 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:114 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Ajax\Ajax.cs done
+2018-10-15T01:42:52:115 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Ajax\AjaxTask.cs ...
+2018-10-15T01:42:52:116 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:116 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:117 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:118 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:119 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Ajax\AjaxTask.cs done
+2018-10-15T01:42:52:119 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Attributes\TestedAttribute.cs ...
+2018-10-15T01:42:52:120 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:121 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:122 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:122 	Trace			Accepting lambda fixer visitor done
+2018-10-15T01:42:52:123 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:124 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Attributes\TestedAttribute.cs done
+2018-10-15T01:42:52:124 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Data\popupNotificationConst.cs ...
+2018-10-15T01:42:52:125 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:126 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:127 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:127 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:128 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Data\popupNotificationConst.cs done
+2018-10-15T01:42:52:129 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Dependecies\DI.cs ...
+2018-10-15T01:42:52:130 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:130 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:131 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:132 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:133 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Dependecies\DI.cs done
+2018-10-15T01:42:52:133 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Dependecies\EnsureLibrariesInstalledCorrectly_func.cs ...
+2018-10-15T01:42:52:134 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:135 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:136 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:136 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:137 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Dependecies\EnsureLibrariesInstalledCorrectly_func.cs done
+2018-10-15T01:42:52:138 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Extensions\HtmlSupportExtensions.cs ...
+2018-10-15T01:42:52:139 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:139 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:140 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:141 	Trace			Accepting lambda fixer visitor done
+2018-10-15T01:42:52:142 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:142 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Extensions\HtmlSupportExtensions.cs done
+2018-10-15T01:42:52:143 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Extensions\JavascriptExtensions.cs ...
+2018-10-15T01:42:52:144 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:144 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:145 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:146 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:146 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Extensions\JavascriptExtensions.cs done
+2018-10-15T01:42:52:147 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Extensions\ObjectExt.cs ...
+2018-10-15T01:42:52:148 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:149 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:149 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:150 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:151 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Extensions\ObjectExt.cs done
+2018-10-15T01:42:52:151 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Extensions\SelectorExtensions.cs ...
+2018-10-15T01:42:52:152 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:153 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:153 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:154 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:155 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Extensions\SelectorExtensions.cs done
+2018-10-15T01:42:52:156 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\External\Json.cs ...
+2018-10-15T01:42:52:157 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:157 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:158 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:158 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:159 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\External\Json.cs done
+2018-10-15T01:42:52:160 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Http\HttpMethod.cs ...
+2018-10-15T01:42:52:161 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:161 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:162 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:163 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:163 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Http\HttpMethod.cs done
+2018-10-15T01:42:52:164 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\Core\KendoDatePicker.cs ...
+2018-10-15T01:42:52:165 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:166 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:166 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:167 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:168 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\Core\KendoDatePicker.cs done
+2018-10-15T01:42:52:169 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\Core\KendoDatePickerEventHandler.cs ...
+2018-10-15T01:42:52:170 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:170 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:171 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:172 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:172 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\Core\KendoDatePickerEventHandler.cs done
+2018-10-15T01:42:52:173 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\datePicker.cs ...
+2018-10-15T01:42:52:174 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:174 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:175 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:176 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:176 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\datePicker.cs done
+2018-10-15T01:42:52:177 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Others\Class.cs ...
+2018-10-15T01:42:52:178 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:178 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:179 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:179 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:180 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Others\Class.cs done
+2018-10-15T01:42:52:181 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Others\Function.cs ...
+2018-10-15T01:42:52:182 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:182 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:183 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:184 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:184 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Others\Function.cs done
+2018-10-15T01:42:52:185 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Others\IFunction.cs ...
+2018-10-15T01:42:52:186 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:186 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:187 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:188 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:188 	Trace		Source file D:\CDesktopWallper\ClientScript\Kernel\Others\IFunction.cs done
+2018-10-15T01:42:52:189 	Trace		Source file D:\CDesktopWallper\ClientScript\Ws\InternetWallperWebViewWSClient.cs ...
+2018-10-15T01:42:52:190 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:191 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:191 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:192 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:193 	Trace		Source file D:\CDesktopWallper\ClientScript\Ws\InternetWallperWebViewWSClient.cs done
+2018-10-15T01:42:52:193 	Trace		Source file D:\CDesktopWallper\ClientScript\Ws\LocalWallperWebViewWSClient.cs ...
+2018-10-15T01:42:52:204 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:205 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:205 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:207 	Trace			Accepting lambda fixer visitor done
+2018-10-15T01:42:52:207 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:208 	Trace		Source file D:\CDesktopWallper\ClientScript\Ws\LocalWallperWebViewWSClient.cs done
+2018-10-15T01:42:52:209 	Trace		Source file D:\CDesktopWallper\ClientScript\Ws\ModulesWebViewWS.cs ...
+2018-10-15T01:42:52:209 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:210 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:211 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:212 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:212 	Trace		Source file D:\CDesktopWallper\ClientScript\Ws\ModulesWebViewWS.cs done
+2018-10-15T01:42:52:213 	Trace		Source file D:\CDesktopWallper\ClientScript\Path.cs ...
+2018-10-15T01:42:52:214 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:214 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:215 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:216 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:216 	Trace		Source file D:\CDesktopWallper\ClientScript\Path.cs done
+2018-10-15T01:42:52:217 	Trace		Source file D:\CDesktopWallper\ClientScript\Properties\AssemblyInfo.cs ...
+2018-10-15T01:42:52:218 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:218 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:219 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:220 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:220 	Trace		Source file D:\CDesktopWallper\ClientScript\Properties\AssemblyInfo.cs done
+2018-10-15T01:42:52:221 	Trace		Source file D:\CDesktopWallper\ClientScript\Resource.cs ...
+2018-10-15T01:42:52:222 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:222 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:223 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:224 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:225 	Trace		Source file D:\CDesktopWallper\ClientScript\Resource.cs done
+2018-10-15T01:42:52:225 	Trace		Source file D:\CDesktopWallper\ClientScript\Setting\ClientSetting.cs ...
+2018-10-15T01:42:52:226 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:226 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:227 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:228 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:228 	Trace		Source file D:\CDesktopWallper\ClientScript\Setting\ClientSetting.cs done
+2018-10-15T01:42:52:229 	Trace		Source file D:\CDesktopWallper\ClientScript\SettingCommand.cs ...
+2018-10-15T01:42:52:230 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:230 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:231 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:232 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:232 	Trace		Source file D:\CDesktopWallper\ClientScript\SettingCommand.cs done
+2018-10-15T01:42:52:233 	Trace		Source file D:\CDesktopWallper\ClientScript\Setting\ClientSettingData.cs ...
+2018-10-15T01:42:52:234 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:234 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:235 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:236 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:236 	Trace		Source file D:\CDesktopWallper\ClientScript\Setting\ClientSettingData.cs done
+2018-10-15T01:42:52:237 	Trace		Source file D:\CDesktopWallper\ClientScript\Ws\SettingWebViewWSClient.cs ...
+2018-10-15T01:42:52:238 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:239 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:239 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:241 	Trace			Accepting lambda fixer visitor done
+2018-10-15T01:42:52:241 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:242 	Trace		Source file D:\CDesktopWallper\ClientScript\Ws\SettingWebViewWSClient.cs done
+2018-10-15T01:42:52:243 	Trace		Source file D:\CDesktopWallper\ClientScript\Component.cs ...
+2018-10-15T01:42:52:244 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:244 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:245 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:246 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:246 	Trace		Source file D:\CDesktopWallper\ClientScript\Component.cs done
+2018-10-15T01:42:52:247 	Trace		Source file D:\CDesktopWallper\ClientScript\WallperDescription.cs ...
+2018-10-15T01:42:52:247 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:248 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:249 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:249 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:250 	Trace		Source file D:\CDesktopWallper\ClientScript\WallperDescription.cs done
+2018-10-15T01:42:52:251 	Trace		Source file D:\CDesktopWallper\ClientScript\WallperPreviewCard.cs ...
+2018-10-15T01:42:52:251 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:252 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:253 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:253 	Trace			Accepting lambda fixer visitor done
+2018-10-15T01:42:52:254 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:255 	Trace		Source file D:\CDesktopWallper\ClientScript\WallperPreviewCard.cs done
+2018-10-15T01:42:52:255 	Trace		Source file D:\CDesktopWallper\ClientScript\WallperShow.cs ...
+2018-10-15T01:42:52:256 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:256 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:257 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:258 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:258 	Trace		Source file D:\CDesktopWallper\ClientScript\WallperShow.cs done
+2018-10-15T01:42:52:259 	Trace		Source file C:\Users\c\AppData\Local\Temp\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs ...
+2018-10-15T01:42:52:259 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:260 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:261 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:261 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:262 	Trace		Source file C:\Users\c\AppData\Local\Temp\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs done
+2018-10-15T01:42:52:263 	Trace		Source file D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs ...
+2018-10-15T01:42:52:263 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:264 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:265 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:265 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:266 	Trace		Source file D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs done
+2018-10-15T01:42:52:266 	Trace		Source file D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs ...
+2018-10-15T01:42:52:267 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:268 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:268 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:269 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:269 	Trace		Source file D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs done
+2018-10-15T01:42:52:270 	Trace		Source file D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs ...
+2018-10-15T01:42:52:271 	Trace			Parsing syntax tree done
+2018-10-15T01:42:52:271 	Trace			Expanding query expressions done
+2018-10-15T01:42:52:272 	Trace			Accepting lambda detector visitor done
+2018-10-15T01:42:52:273 	Trace			Accepting type system convert visitor done
+2018-10-15T01:42:52:273 	Trace		Source file D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs done
+2018-10-15T01:42:52:274 	Info		Building syntax tree done
+2018-10-15T01:42:52:274 	Info		Assembly definition to references...
+2018-10-15T01:42:52:275 	Trace			Loading AssemblyDefinition Bridge ...
+2018-10-15T01:42:52:990 	Trace			Loading AssemblyDefinition done
+2018-10-15T01:42:52:992 	Trace			Loading AssemblyDefinition Retyped.Core ...
+2018-10-15T01:42:52:993 	Trace			Loading AssemblyDefinition done
+2018-10-15T01:42:52:994 	Trace			Loading AssemblyDefinition Retyped.es5 ...
+2018-10-15T01:42:53:028 	Trace			Loading AssemblyDefinition done
+2018-10-15T01:42:53:029 	Trace			Loading AssemblyDefinition Retyped.dom ...
+2018-10-15T01:42:53:364 	Trace			Loading AssemblyDefinition done
+2018-10-15T01:42:53:365 	Trace			Loading AssemblyDefinition Retyped.es2015.symbol ...
+2018-10-15T01:42:53:366 	Trace			Loading AssemblyDefinition done
+2018-10-15T01:42:53:367 	Trace			Loading AssemblyDefinition Retyped.es2015.iterable ...
+2018-10-15T01:42:53:370 	Trace			Loading AssemblyDefinition done
+2018-10-15T01:42:53:370 	Trace			Loading AssemblyDefinition Retyped.jquery ...
+2018-10-15T01:42:53:428 	Trace			Loading AssemblyDefinition done
+2018-10-15T01:42:53:429 	Trace			Loading AssemblyDefinition Newtonsoft.Json ...
+2018-10-15T01:42:53:430 	Trace			Loading AssemblyDefinition done
+2018-10-15T01:42:53:431 	Info		Assembly definition to references done
+2018-10-15T01:42:53:432 	Trace		Preconvert D:\CDesktopWallper\ClientScript\..\CDesktopWallper\Frontend\WsCommand.cs
+2018-10-15T01:42:53:434 	Trace		Preconvert D:\CDesktopWallper\ClientScript\App.cs
+2018-10-15T01:42:53:466 	Trace		Preconvert D:\CDesktopWallper\ClientScript\ContextMenu.cs
+2018-10-15T01:42:53:467 	Trace		Preconvert D:\CDesktopWallper\ClientScript\ISerializer.cs
+2018-10-15T01:42:53:468 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Setting\IClientSetting.cs
+2018-10-15T01:42:53:469 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Setting\ISettingData.cs
+2018-10-15T01:42:53:470 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Ajax\Ajax.cs
+2018-10-15T01:42:53:473 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Ajax\AjaxTask.cs
+2018-10-15T01:42:53:475 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Attributes\TestedAttribute.cs
+2018-10-15T01:42:53:476 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Data\popupNotificationConst.cs
+2018-10-15T01:42:53:477 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Dependecies\DI.cs
+2018-10-15T01:42:53:479 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Dependecies\EnsureLibrariesInstalledCorrectly_func.cs
+2018-10-15T01:42:53:480 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Extensions\HtmlSupportExtensions.cs
+2018-10-15T01:42:53:482 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Extensions\JavascriptExtensions.cs
+2018-10-15T01:42:53:483 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Extensions\ObjectExt.cs
+2018-10-15T01:42:53:484 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Extensions\SelectorExtensions.cs
+2018-10-15T01:42:53:485 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\External\Json.cs
+2018-10-15T01:42:53:485 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Http\HttpMethod.cs
+2018-10-15T01:42:53:486 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\Core\KendoDatePicker.cs
+2018-10-15T01:42:53:488 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\Core\KendoDatePickerEventHandler.cs
+2018-10-15T01:42:53:489 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\datePicker.cs
+2018-10-15T01:42:53:490 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Others\Class.cs
+2018-10-15T01:42:53:491 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Others\Function.cs
+2018-10-15T01:42:53:492 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Kernel\Others\IFunction.cs
+2018-10-15T01:42:53:492 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Ws\InternetWallperWebViewWSClient.cs
+2018-10-15T01:42:53:496 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Ws\LocalWallperWebViewWSClient.cs
+2018-10-15T01:42:53:503 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Ws\ModulesWebViewWS.cs
+2018-10-15T01:42:53:504 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Path.cs
+2018-10-15T01:42:53:504 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Properties\AssemblyInfo.cs
+2018-10-15T01:42:53:505 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Resource.cs
+2018-10-15T01:42:53:506 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Setting\ClientSetting.cs
+2018-10-15T01:42:53:508 	Trace		Preconvert D:\CDesktopWallper\ClientScript\SettingCommand.cs
+2018-10-15T01:42:53:509 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Setting\ClientSettingData.cs
+2018-10-15T01:42:53:510 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Ws\SettingWebViewWSClient.cs
+2018-10-15T01:42:53:513 	Trace		Preconvert D:\CDesktopWallper\ClientScript\Component.cs
+2018-10-15T01:42:53:514 	Trace		Preconvert D:\CDesktopWallper\ClientScript\WallperDescription.cs
+2018-10-15T01:42:53:515 	Trace		Preconvert D:\CDesktopWallper\ClientScript\WallperPreviewCard.cs
+2018-10-15T01:42:53:517 	Trace		Preconvert D:\CDesktopWallper\ClientScript\WallperShow.cs
+2018-10-15T01:42:53:518 	Trace		Preconvert C:\Users\c\AppData\Local\Temp\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+2018-10-15T01:42:53:519 	Trace		Preconvert D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+2018-10-15T01:42:53:519 	Trace		Preconvert D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+2018-10-15T01:42:53:520 	Trace		Preconvert D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+2018-10-15T01:42:53:521 	Info		Inspecting types...
+2018-10-15T01:42:53:522 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\..\CDesktopWallper\Frontend\WsCommand.cs
+2018-10-15T01:42:53:523 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\App.cs
+2018-10-15T01:42:53:525 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\ContextMenu.cs
+2018-10-15T01:42:53:525 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\ISerializer.cs
+2018-10-15T01:42:53:526 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Setting\IClientSetting.cs
+2018-10-15T01:42:53:527 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Setting\ISettingData.cs
+2018-10-15T01:42:53:528 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Ajax\Ajax.cs
+2018-10-15T01:42:53:529 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Ajax\AjaxTask.cs
+2018-10-15T01:42:53:540 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Attributes\TestedAttribute.cs
+2018-10-15T01:42:53:541 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Data\popupNotificationConst.cs
+2018-10-15T01:42:53:542 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Dependecies\DI.cs
+2018-10-15T01:42:53:543 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Dependecies\EnsureLibrariesInstalledCorrectly_func.cs
+2018-10-15T01:42:53:544 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Extensions\HtmlSupportExtensions.cs
+2018-10-15T01:42:53:544 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Extensions\JavascriptExtensions.cs
+2018-10-15T01:42:53:545 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Extensions\ObjectExt.cs
+2018-10-15T01:42:53:546 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Extensions\SelectorExtensions.cs
+2018-10-15T01:42:53:547 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\External\Json.cs
+2018-10-15T01:42:53:547 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Http\HttpMethod.cs
+2018-10-15T01:42:53:548 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\Core\KendoDatePicker.cs
+2018-10-15T01:42:53:550 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\Core\KendoDatePickerEventHandler.cs
+2018-10-15T01:42:53:550 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\KendoDatePicker\datePicker.cs
+2018-10-15T01:42:53:551 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Others\Class.cs
+2018-10-15T01:42:53:552 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Others\Function.cs
+2018-10-15T01:42:53:553 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Kernel\Others\IFunction.cs
+2018-10-15T01:42:53:554 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Ws\InternetWallperWebViewWSClient.cs
+2018-10-15T01:42:53:555 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Ws\LocalWallperWebViewWSClient.cs
+2018-10-15T01:42:53:556 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Ws\ModulesWebViewWS.cs
+2018-10-15T01:42:53:557 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Path.cs
+2018-10-15T01:42:53:557 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Properties\AssemblyInfo.cs
+2018-10-15T01:42:53:558 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Resource.cs
+2018-10-15T01:42:53:559 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Setting\ClientSetting.cs
+2018-10-15T01:42:53:560 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\SettingCommand.cs
+2018-10-15T01:42:53:561 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Setting\ClientSettingData.cs
+2018-10-15T01:42:53:562 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Ws\SettingWebViewWSClient.cs
+2018-10-15T01:42:53:563 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\Component.cs
+2018-10-15T01:42:53:564 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\WallperDescription.cs
+2018-10-15T01:42:53:565 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\WallperPreviewCard.cs
+2018-10-15T01:42:53:566 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\WallperShow.cs
+2018-10-15T01:42:53:566 	Trace		Visiting syntax tree C:\Users\c\AppData\Local\Temp\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+2018-10-15T01:42:53:567 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+2018-10-15T01:42:53:568 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+2018-10-15T01:42:53:568 	Trace		Visiting syntax tree D:\CDesktopWallper\ClientScript\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+2018-10-15T01:42:53:569 	Info		Inspecting types done
+2018-10-15T01:42:53:569 	Info		Creating emitter...
+2018-10-15T01:42:53:570 	Trace		Initializing items for Bridge types...
+2018-10-15T01:42:53:629 	Trace		Initializing items for Bridge types done
+2018-10-15T01:42:53:629 	Trace		Sorting types infos by name...
+2018-10-15T01:42:53:630 	Trace		Sorting types infos by name done
+2018-10-15T01:42:53:631 	Trace		Sorting types by inheritance...
+2018-10-15T01:42:53:631 	Trace		Topological sorting...
+2018-10-15T01:42:53:632 	Trace			Topological sorting first iteration...
+2018-10-15T01:42:53:634 	Trace				HitCounter0 = 40
+2018-10-15T01:42:53:634 	Trace				HitCounter1 = 32
+2018-10-15T01:42:53:635 	Trace				HitCounter2 = 14
+2018-10-15T01:42:53:636 	Trace				HitCounter3 = 14
+2018-10-15T01:42:53:637 	Trace				HitCounter4 = 21
+2018-10-15T01:42:53:638 	Trace				HitCounter5 = 0
+2018-10-15T01:42:53:638 	Trace				HitCounter6 = 0
+2018-10-15T01:42:53:639 	Trace			Topological sorting first iteration done
+2018-10-15T01:42:53:640 	Trace			Topological sorting third iteration...
+2018-10-15T01:42:53:640 	Trace				Calculate sorting...
+2018-10-15T01:42:53:641 	Trace				Calculate sorting done
+2018-10-15T01:42:53:642 	Trace				Getting Reflection names for 40 types...
+2018-10-15T01:42:53:642 	Trace				Got Enumerable<ISet<OrderedProcess>>
+2018-10-15T01:42:53:643 	Trace				Got Enumerator<ISet<OrderedProcess>>
+2018-10-15T01:42:53:644 	Trace				Getting Reflection names done
+2018-10-15T01:42:53:644 	Trace				HitCounter0 = 4
+2018-10-15T01:42:53:645 	Trace				HitCounter1 = 40
+2018-10-15T01:42:53:645 	Trace				HitCounter2 = 40
+2018-10-15T01:42:53:646 	Trace				HitCounter3 = 0
+2018-10-15T01:42:53:647 	Trace				HitCounter4 = 0
+2018-10-15T01:42:53:647 	Trace				HitCounter5 = 0
+2018-10-15T01:42:53:648 	Trace				HitCounter6 = 0
+2018-10-15T01:42:53:649 	Trace			Topological sorting third iteration done
+2018-10-15T01:42:53:649 	Trace		Topological sorting done
+2018-10-15T01:42:53:650 	Trace		Priority sorting...
+2018-10-15T01:42:53:651 	Trace		Priority sorting done
+2018-10-15T01:42:53:652 	Trace		Sorting types by inheritance done
+2018-10-15T01:42:53:653 	Info		Creating emitter done
+2018-10-15T01:42:53:653 	Trace		Sorting references...
+2018-10-15T01:42:53:654 	Trace				Calculate sorting references...
+2018-10-15T01:42:53:655 	Trace				Calculate sorting references done
+2018-10-15T01:42:53:655 	Trace				Got Enumerable<ISet<OrderedProcess>>
+2018-10-15T01:42:53:656 	Trace				Got Enumerator<ISet<OrderedProcess>>
+2018-10-15T01:42:53:657 	Trace			Handling mscorlib
+2018-10-15T01:42:53:657 	Trace			Handling Bridge
+2018-10-15T01:42:53:658 	Trace			Handling Retyped.Core
+2018-10-15T01:42:53:658 	Trace			Handling Newtonsoft.Json
+2018-10-15T01:42:53:659 	Trace			Handling Retyped.es5
+2018-10-15T01:42:53:660 	Trace			Handling Retyped.es2015.symbol
+2018-10-15T01:42:53:660 	Trace			Handling Retyped.dom
+2018-10-15T01:42:53:661 	Trace			Handling Retyped.es2015.iterable
+2018-10-15T01:42:53:662 	Trace			Handling Retyped.jquery
+2018-10-15T01:42:53:662 	Trace		Sorting references done:
+2018-10-15T01:42:53:663 	Trace			Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:53:664 	Trace			Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:53:665 	Trace			Newtonsoft.Json, Version=1.10.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:53:665 	Trace			Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:53:666 	Trace			Retyped.es2015.symbol, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:53:667 	Trace			Retyped.dom, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:53:667 	Trace			Retyped.es2015.iterable, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:53:668 	Trace			Retyped.jquery, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:53:669 	Info		Before emitting...
+2018-10-15T01:42:53:669 	Info		Before emitting done
+2018-10-15T01:42:53:670 	Info		Emitting...
+2018-10-15T01:42:53:671 	Trace		Emitting block Bridge.Translator.EmitBlock
+2018-10-15T01:42:54:212 	Info		Transforming outputs...
+2018-10-15T01:42:54:213 	Trace		Wrapping to modules...
+2018-10-15T01:42:54:214 	Trace		Wrapping to modules done
+2018-10-15T01:42:54:215 	Trace		Combining outputs...
+2018-10-15T01:42:54:215 	Trace		File name ClientScript.js
+2018-10-15T01:42:54:216 	Trace		File name ClientScript.meta.js
+2018-10-15T01:42:54:217 	Trace		Combining outputs done
+2018-10-15T01:42:54:218 	Info		Transforming outputs done
+2018-10-15T01:42:54:218 	Info		Emitting done
+2018-10-15T01:42:54:219 	Info		After emitting...
+2018-10-15T01:42:54:220 	Info		After emitting done
+2018-10-15T01:42:54:220 	Info		Translating done
+2018-10-15T01:42:54:221 	Info		Post processing...
+2018-10-15T01:42:54:222 	Info		outputPath is D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\
+2018-10-15T01:42:54:222 	Trace		Preparing resources config...
+2018-10-15T01:42:54:223 	Trace		The resources config section has 0 non-default settings
+2018-10-15T01:42:54:224 	Trace		CheckConsoleConfigSetting...
+2018-10-15T01:42:54:224 	Trace		Switching off Bridge Console...
+2018-10-15T01:42:54:225 	Trace		Adding resource setting for bridge.console.js
+2018-10-15T01:42:54:226 	Trace		Adding resource setting for bridge.console.min.js
+2018-10-15T01:42:54:226 	Trace		Switching off Bridge Console done
+2018-10-15T01:42:54:227 	Trace		CheckConsoleConfigSetting done
+2018-10-15T01:42:54:228 	Trace		Done preparing resources config
+2018-10-15T01:42:54:229 	Info		projectPath is D:\CDesktopWallper\ClientScript
+2018-10-15T01:42:54:229 	Info		Extracting core scripts...
+2018-10-15T01:42:54:230 	Info		Extracting resources...
+2018-10-15T01:42:54:231 	Trace		Checking if reference Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.json
+2018-10-15T01:42:54:231 	Trace		Reading Bridge Resources List
+2018-10-15T01:42:54:232 	Trace		Read Bridge Resources List: [
+  {
+    "FileName": "bridge.js",
+    "Name": "bridge.js",
+    "Path": null,
+    "Parts": null
+  },
+  {
+    "FileName": "bridge.console.js",
+    "Name": "bridge.console.js",
+    "Path": null,
+    "Parts": null
+  },
+  {
+    "FileName": "bridge.d.ts",
+    "Name": "bridge.d.ts",
+    "Path": null,
+    "Parts": null
+  },
+  {
+    "FileName": "bridge.meta.js",
+    "Name": "bridge.meta.js",
+    "Path": null,
+    "Parts": null
+  }
+]
+2018-10-15T01:42:54:233 	Trace		Extracting item bridge.js
+2018-10-15T01:42:54:233 	Trace		Resource name bridge.js and file name: bridge.js
+2018-10-15T01:42:54:234 	Trace		Did not find extract resource option for resource name bridge.js. Will use default embed behavior
+2018-10-15T01:42:54:235 	Trace		Adding referenced output bridge.js
+2018-10-15T01:42:54:238 	Trace		Extracting item bridge.console.js
+2018-10-15T01:42:54:239 	Trace		Resource name bridge.console.js and file name: bridge.console.js
+2018-10-15T01:42:54:240 	Trace		Found resource option for resource name bridge.console.js and reference 
+2018-10-15T01:42:54:241 	Info		Skipping resource bridge.console.js as it has setting resources.extract != true
+2018-10-15T01:42:54:241 	Trace		Extracting item bridge.d.ts
+2018-10-15T01:42:54:242 	Trace		Resource name bridge.d.ts and file name: bridge.d.ts
+2018-10-15T01:42:54:243 	Trace		Did not find extract resource option for resource name bridge.d.ts. Will use default embed behavior
+2018-10-15T01:42:54:243 	Trace		Extracting item bridge.meta.js
+2018-10-15T01:42:54:244 	Trace		Resource name bridge.meta.js and file name: bridge.meta.js
+2018-10-15T01:42:54:245 	Trace		Did not find extract resource option for resource name bridge.meta.js. Will use default embed behavior
+2018-10-15T01:42:54:245 	Trace		Adding referenced output bridge.meta.js
+2018-10-15T01:42:54:248 	Trace		Checking if reference Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.json
+2018-10-15T01:42:54:248 	Trace		Reference Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null does not contain Bridge Resources List
+2018-10-15T01:42:54:250 	Trace		Checking if reference Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.list
+2018-10-15T01:42:54:251 	Trace		Reference Retyped.Core, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null does not contain Bridge Resources List
+2018-10-15T01:42:54:251 	Trace		Checking if reference Newtonsoft.Json, Version=1.10.0.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.json
+2018-10-15T01:42:54:252 	Trace		Reading Bridge Resources List
+2018-10-15T01:42:54:252 	Trace		Read Bridge Resources List: [
+  {
+    "FileName": "newtonsoft.json.js",
+    "Name": "newtonsoft.json.js",
+    "Path": null,
+    "Parts": null
+  }
+]
+2018-10-15T01:42:54:253 	Trace		Extracting item newtonsoft.json.js
+2018-10-15T01:42:54:254 	Trace		Resource name newtonsoft.json.js and file name: newtonsoft.json.js
+2018-10-15T01:42:54:255 	Trace		Did not find extract resource option for resource name newtonsoft.json.js. Will use default embed behavior
+2018-10-15T01:42:54:255 	Trace		Adding referenced output newtonsoft.json.js
+2018-10-15T01:42:54:256 	Trace		Checking if reference Retyped.es5, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.json
+2018-10-15T01:42:54:257 	Trace		Reading Bridge Resources List
+2018-10-15T01:42:54:258 	Trace		Read Bridge Resources List: [
+  {
+    "FileName": "lib.es5.d.ts",
+    "Name": "libs\\lib.es5.d.ts",
+    "Path": "es5\\"
+  }
+]
+2018-10-15T01:42:54:258 	Trace		Extracting item libs\lib.es5.d.ts
+2018-10-15T01:42:54:259 	Trace		Resource name libs\lib.es5.d.ts and file name: lib.es5.d.ts
+2018-10-15T01:42:54:260 	Trace		Did not find extract resource option for resource name libs\lib.es5.d.ts. Will use default embed behavior
+2018-10-15T01:42:54:260 	Trace		resource.Path option es5\
+2018-10-15T01:42:54:261 	Trace		Checking output path setting es5\
+2018-10-15T01:42:54:262 	Trace		Resource output setting directory relative to base path is es5
+2018-10-15T01:42:54:262 	Trace		Resource output setting file name is 
+2018-10-15T01:42:54:263 	Trace		Checking resource output directory on invalid characters
+2018-10-15T01:42:54:264 	Trace		Getting absolute resource output directory
+2018-10-15T01:42:54:264 	Trace		Resource output directory is D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\es5
+2018-10-15T01:42:54:265 	Trace		Changing output path according to embedded resource Path setting to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\es5
+2018-10-15T01:42:54:266 	Trace		Checking if reference Retyped.es2015.symbol, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.json
+2018-10-15T01:42:54:267 	Trace		Reading Bridge Resources List
+2018-10-15T01:42:54:267 	Trace		Read Bridge Resources List: [
+  {
+    "FileName": "lib.es2015.symbol.d.ts",
+    "Name": "libs\\lib.es2015.symbol.d.ts",
+    "Path": "es2015.symbol\\"
+  }
+]
+2018-10-15T01:42:54:268 	Trace		Extracting item libs\lib.es2015.symbol.d.ts
+2018-10-15T01:42:54:269 	Trace		Resource name libs\lib.es2015.symbol.d.ts and file name: lib.es2015.symbol.d.ts
+2018-10-15T01:42:54:270 	Trace		Did not find extract resource option for resource name libs\lib.es2015.symbol.d.ts. Will use default embed behavior
+2018-10-15T01:42:54:270 	Trace		resource.Path option es2015.symbol\
+2018-10-15T01:42:54:271 	Trace		Checking output path setting es2015.symbol\
+2018-10-15T01:42:54:271 	Trace		Resource output setting directory relative to base path is es2015.symbol
+2018-10-15T01:42:54:272 	Trace		Resource output setting file name is 
+2018-10-15T01:42:54:273 	Trace		Checking resource output directory on invalid characters
+2018-10-15T01:42:54:273 	Trace		Getting absolute resource output directory
+2018-10-15T01:42:54:274 	Trace		Resource output directory is D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\es2015.symbol
+2018-10-15T01:42:54:275 	Trace		Changing output path according to embedded resource Path setting to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\es2015.symbol
+2018-10-15T01:42:54:276 	Trace		Checking if reference Retyped.dom, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.json
+2018-10-15T01:42:54:276 	Trace		Reading Bridge Resources List
+2018-10-15T01:42:54:277 	Trace		Read Bridge Resources List: [
+  {
+    "FileName": "lib.dom.d.ts",
+    "Name": "libs\\lib.dom.d.ts",
+    "Path": "dom\\"
+  }
+]
+2018-10-15T01:42:54:278 	Trace		Extracting item libs\lib.dom.d.ts
+2018-10-15T01:42:54:278 	Trace		Resource name libs\lib.dom.d.ts and file name: lib.dom.d.ts
+2018-10-15T01:42:54:279 	Trace		Did not find extract resource option for resource name libs\lib.dom.d.ts. Will use default embed behavior
+2018-10-15T01:42:54:280 	Trace		resource.Path option dom\
+2018-10-15T01:42:54:280 	Trace		Checking output path setting dom\
+2018-10-15T01:42:54:281 	Trace		Resource output setting directory relative to base path is dom
+2018-10-15T01:42:54:282 	Trace		Resource output setting file name is 
+2018-10-15T01:42:54:282 	Trace		Checking resource output directory on invalid characters
+2018-10-15T01:42:54:283 	Trace		Getting absolute resource output directory
+2018-10-15T01:42:54:283 	Trace		Resource output directory is D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\dom
+2018-10-15T01:42:54:284 	Trace		Changing output path according to embedded resource Path setting to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\dom
+2018-10-15T01:42:54:285 	Trace		Checking if reference Retyped.es2015.iterable, Version=2.8.2.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.json
+2018-10-15T01:42:54:285 	Trace		Reading Bridge Resources List
+2018-10-15T01:42:54:286 	Trace		Read Bridge Resources List: [
+  {
+    "FileName": "lib.es2015.iterable.d.ts",
+    "Name": "libs\\lib.es2015.iterable.d.ts",
+    "Path": "es2015.iterable\\"
+  }
+]
+2018-10-15T01:42:54:286 	Trace		Extracting item libs\lib.es2015.iterable.d.ts
+2018-10-15T01:42:54:287 	Trace		Resource name libs\lib.es2015.iterable.d.ts and file name: lib.es2015.iterable.d.ts
+2018-10-15T01:42:54:288 	Trace		Did not find extract resource option for resource name libs\lib.es2015.iterable.d.ts. Will use default embed behavior
+2018-10-15T01:42:54:288 	Trace		resource.Path option es2015.iterable\
+2018-10-15T01:42:54:289 	Trace		Checking output path setting es2015.iterable\
+2018-10-15T01:42:54:290 	Trace		Resource output setting directory relative to base path is es2015.iterable
+2018-10-15T01:42:54:290 	Trace		Resource output setting file name is 
+2018-10-15T01:42:54:291 	Trace		Checking resource output directory on invalid characters
+2018-10-15T01:42:54:292 	Trace		Getting absolute resource output directory
+2018-10-15T01:42:54:292 	Trace		Resource output directory is D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\es2015.iterable
+2018-10-15T01:42:54:293 	Trace		Changing output path according to embedded resource Path setting to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\es2015.iterable
+2018-10-15T01:42:54:294 	Trace		Checking if reference Retyped.jquery, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null contains Bridge Resources List Bridge.Resources.json
+2018-10-15T01:42:54:294 	Trace		Reading Bridge Resources List
+2018-10-15T01:42:54:295 	Trace		Read Bridge Resources List: [
+  {
+    "FileName": "index.d.ts",
+    "Name": "libs\\index.d.ts",
+    "Path": "jquery\\"
+  }
+]
+2018-10-15T01:42:54:296 	Trace		Extracting item libs\index.d.ts
+2018-10-15T01:42:54:296 	Trace		Resource name libs\index.d.ts and file name: index.d.ts
+2018-10-15T01:42:54:297 	Trace		Did not find extract resource option for resource name libs\index.d.ts. Will use default embed behavior
+2018-10-15T01:42:54:298 	Trace		resource.Path option jquery\
+2018-10-15T01:42:54:298 	Trace		Checking output path setting jquery\
+2018-10-15T01:42:54:299 	Trace		Resource output setting directory relative to base path is jquery
+2018-10-15T01:42:54:300 	Trace		Resource output setting file name is 
+2018-10-15T01:42:54:300 	Trace		Checking resource output directory on invalid characters
+2018-10-15T01:42:54:301 	Trace		Getting absolute resource output directory
+2018-10-15T01:42:54:302 	Trace		Resource output directory is D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\jquery
+2018-10-15T01:42:54:302 	Trace		Changing output path according to embedded resource Path setting to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\jquery
+2018-10-15T01:42:54:303 	Info		Done extracting resources
+2018-10-15T01:42:54:304 	Info		Skipping extracting Locales
+2018-10-15T01:42:54:304 	Info		Done extracting core scripts
+2018-10-15T01:42:54:305 	Trace		Minification...
+2018-10-15T01:42:54:306 	Trace		No minification required as OutputFormatting = Formatted
+2018-10-15T01:42:54:306 	Trace		Combining locales...
+2018-10-15T01:42:54:307 	Trace		Skipping combining locales as CombineLocales and CombineScripts config oiptions are both switched off.
+2018-10-15T01:42:54:308 	Trace		Combining project outputs...
+2018-10-15T01:42:54:308 	Trace		Skipping project outputs as CombineScripts config option switched off.
+2018-10-15T01:42:54:309 	Info		Starts Save with projectOutputPath = D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\
+2018-10-15T01:42:54:310 	Trace		Output bridge.js
+2018-10-15T01:42:54:310 	Trace		Output file name changed to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\bridge.js
+2018-10-15T01:42:54:311 	Trace		Output full name D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\bridge.js
+2018-10-15T01:42:54:316 	Trace		Saving content (string) into D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\bridge.js ...
+2018-10-15T01:42:54:317 	Trace		Saved file D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\bridge.js
+2018-10-15T01:42:54:318 	Trace		Output bridge.meta.js
+2018-10-15T01:42:54:318 	Trace		Output file name changed to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\bridge.meta.js
+2018-10-15T01:42:54:319 	Trace		Output full name D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\bridge.meta.js
+2018-10-15T01:42:54:323 	Trace		Saving content (string) into D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\bridge.meta.js ...
+2018-10-15T01:42:54:324 	Trace		Saved file D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\bridge.meta.js
+2018-10-15T01:42:54:324 	Trace		Output newtonsoft.json.js
+2018-10-15T01:42:54:325 	Trace		Output file name changed to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\newtonsoft.json.js
+2018-10-15T01:42:54:326 	Trace		Output full name D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\newtonsoft.json.js
+2018-10-15T01:42:54:327 	Trace		Saving content (string) into D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\newtonsoft.json.js ...
+2018-10-15T01:42:54:328 	Trace		Saved file D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\newtonsoft.json.js
+2018-10-15T01:42:54:328 	Trace		Output ClientScript.js
+2018-10-15T01:42:54:329 	Trace		Output file name changed to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.js
+2018-10-15T01:42:54:330 	Trace		Output full name D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.js
+2018-10-15T01:42:54:331 	Trace		Saving content (string) into D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.js ...
+2018-10-15T01:42:54:332 	Trace		Saved file D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.js
+2018-10-15T01:42:54:332 	Trace		Output ClientScript.meta.js
+2018-10-15T01:42:54:333 	Trace		Output file name changed to D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.meta.js
+2018-10-15T01:42:54:334 	Trace		Output full name D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.meta.js
+2018-10-15T01:42:54:335 	Trace		Saving content (string) into D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.meta.js ...
+2018-10-15T01:42:54:336 	Trace		Saved file D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.meta.js
+2018-10-15T01:42:54:336 	Info		Done Save path = D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\
+2018-10-15T01:42:54:337 	Info		Injecting resources...
+2018-10-15T01:42:54:337 	Trace		PrepareResourcesForEmbedding...
+2018-10-15T01:42:54:338 	Trace		Preparing outputs for resources
+2018-10-15T01:42:54:339 	Trace		Getting output D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.js
+2018-10-15T01:42:54:339 	Trace		Reading content file as the output has HasGeneratedSourceMap
+2018-10-15T01:42:54:352 	Trace		Read 58062 bytes for ClientScript.js
+2018-10-15T01:42:54:353 	Trace		Embedding resource ClientScript.js (fileName: ClientScript.js)
+2018-10-15T01:42:54:353 	Trace		Added resource ClientScript.js (fileName: ClientScript.js)
+2018-10-15T01:42:54:354 	Trace		Getting output D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\ClientScript.meta.js
+2018-10-15T01:42:54:355 	Trace		The output item does not have HasGeneratedSourceMap so we use it right from the Outputs
+2018-10-15T01:42:54:355 	Trace		The output is of content 29668 length
+2018-10-15T01:42:54:356 	Trace		Embedding resource ClientScript.meta.js (fileName: ClientScript.meta.js)
+2018-10-15T01:42:54:357 	Trace		Added resource ClientScript.meta.js (fileName: ClientScript.meta.js)
+2018-10-15T01:42:54:357 	Trace		Done preparing output files for resources
+2018-10-15T01:42:54:358 	Trace		PrepareResourcesForEmbedding done
+2018-10-15T01:42:54:359 	Trace		Embedding resources...
+2018-10-15T01:42:54:359 	Trace		Added resource list Bridge.Resources.json
+2018-10-15T01:42:54:360 	Trace		[
+  {
+    "FileName": "ClientScript.js",
+    "Name": "ClientScript.js",
+    "Path": null,
+    "Parts": null
+  },
+  {
+    "FileName": "ClientScript.meta.js",
+    "Name": "ClientScript.meta.js",
+    "Path": null,
+    "Parts": null
+  }
+]
+2018-10-15T01:42:54:361 	Trace		Removing mscorlib reference
+2018-10-15T01:42:54:361 	Trace		Writing resources into D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\ClientScript.dll
+2018-10-15T01:42:54:362 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:363 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference, ReaderParameters) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null, Deferred
+2018-10-15T01:42:54:372 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:373 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:374 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:375 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:375 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:376 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:377 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:377 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:378 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:379 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:379 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:380 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:381 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:381 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:382 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:383 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:383 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:384 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:384 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:385 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:386 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:386 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:387 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:387 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:388 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:389 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:389 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:390 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:391 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:392 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:392 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:393 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:394 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:394 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:395 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:396 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:397 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:397 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:398 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:399 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:400 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:400 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:401 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:402 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:402 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:403 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:404 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:404 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:405 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:406 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:406 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:407 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:408 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:409 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:410 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:410 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:411 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:411 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:412 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:413 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:414 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:414 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:415 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:415 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:416 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:421 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:425 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:427 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:428 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:429 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:429 	Trace		CecilAssemblyResolver: Resolve(AssemblyNameReference) Bridge, Version=17.3.0.0, Culture=neutral, PublicKeyToken=null
+2018-10-15T01:42:54:431 	Trace		Wrote resources into D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\ClientScript.dll
+2018-10-15T01:42:54:432 	Trace		Done embedding resources
+2018-10-15T01:42:54:433 	Info		Done injecting resources
+2018-10-15T01:42:54:433 	Info		Checking AfterBuild event...
+2018-10-15T01:42:54:435 	Trace		No AfterBuild event specified
+2018-10-15T01:42:54:436 	Info		Done checking AfterBuild event...
+2018-10-15T01:42:54:437 	Info		Run plugins AfterOutput...
+2018-10-15T01:42:54:439 	Info		Done plugins AfterOutput
+2018-10-15T01:42:54:439 	Trace		GenerateHtml...
+2018-10-15T01:42:54:441 	Trace		Applying default html template
+2018-10-15T01:42:54:442 	Trace			base: D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\
+2018-10-15T01:42:54:443 	Trace			path: bridge.js
+2018-10-15T01:42:54:445 	Trace			base: D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\
+2018-10-15T01:42:54:445 	Trace			path: bridge.meta.js
+2018-10-15T01:42:54:446 	Trace			base: D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\
+2018-10-15T01:42:54:447 	Trace			path: newtonsoft.json.js
+2018-10-15T01:42:54:449 	Trace			base: D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\
+2018-10-15T01:42:54:450 	Trace			path: ClientScript.js
+2018-10-15T01:42:54:452 	Trace			base: D:\CDesktopWallper\CDesktopWallper\bin\Debug\Frontend\bridge\
+2018-10-15T01:42:54:452 	Trace			path: ClientScript.meta.js
+2018-10-15T01:42:54:454 	Trace		GenerateHtml done
+2018-10-15T01:42:54:454 	Trace		Report...
+2018-10-15T01:42:54:455 	Trace		Report skipped as disabled in config.
+2018-10-15T01:42:54:456 	Info		Done post processing
